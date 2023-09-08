@@ -1,0 +1,11 @@
+h1{
+    color:black;
+    text-align: center;
+}
+.ListGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin: 50px;
+    align-content: flex-start
+  }

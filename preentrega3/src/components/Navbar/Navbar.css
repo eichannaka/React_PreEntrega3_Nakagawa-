@@ -1,0 +1,51 @@
+.nav-bar {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: space-between;
+  background-color: #333;
+  width: 100%;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.NavBar-link {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.Categories {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.option {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.option:hover {
+  color: #ffca28;
+}
+
+.ActiveOption {
+  color: #f8d86e;
+  text-decoration: none;
+}
+
+.CartWidget {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.Ecommerce {
+  text-decoration: none;
+  color: wheat;
+  margin-left: 20px;
+}

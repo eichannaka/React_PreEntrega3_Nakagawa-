@@ -1,0 +1,43 @@
+/* Estilos generales */
+.CardItem {
+    border: 1px solid #6e6868;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilos para el encabezado */
+  .Header {
+    margin-bottom: 10px;
+  }
+  
+  .ItemHeader {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Estilos para la imagen */
+  .ItemImg {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para la información */
+  .Info {
+    margin: 5px 0;
+  }
+  
+  /* Estilos para el footer */
+  .ItemFooter {
+    margin-top: 10px;
+  }
+  
+  

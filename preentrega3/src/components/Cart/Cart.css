@@ -1,0 +1,45 @@
+/* Estilo para el contenedor de carrito */
+.cart {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para los elementos dentro del contenedor de carrito */
+  .cart h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .cart button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .cart button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para el enlace "Checkout" */
+  .cart a.Option {
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  .cart a.Option:hover {
+    background-color: #1e7e34;
+  }
+  

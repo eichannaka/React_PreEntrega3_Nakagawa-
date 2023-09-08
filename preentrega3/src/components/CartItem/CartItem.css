@@ -1,0 +1,28 @@
+/* Estilos para el componente CartItem */
+.CartItem {
+    background-color: #c59090; 
+    border: 1px solid #4b2e2e; 
+    padding: 10px; 
+    margin: 10px; 
+    border-radius: 5px; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    justify-content: space-between; 
+  }
+  
+  .CartItem > div:nth-child(1) {
+    font-weight: bold; 
+    font-size: 1.2rem; 
+  }
+  
+  /* Estilos para el precio */
+  .CartItem > div:nth-child(2) {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  
+  .CartItem > div:nth-child(3) {
+    font-style: italic; 
+  }
+  
